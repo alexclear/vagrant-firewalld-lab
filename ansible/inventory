@@ -1,0 +1,9 @@
+[fw1]
+fw1 ansible_host=172.16.137.182
+
+[fw2]
+fw2 ansible_host=172.16.137.183
+
+[fw:children]
+fw1
+fw2

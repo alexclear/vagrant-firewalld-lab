@@ -1,0 +1,6 @@
+- hosts: fw
+  become: yes
+  roles:
+  - role: etckeeper
+  - role: common-utils
+  - role: firewalld
